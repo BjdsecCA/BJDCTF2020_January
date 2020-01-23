@@ -1,0 +1,54 @@
+/** Progressbar class css*/
+.progressbar {
+    width: 100%;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	position: relative;
+	background-color: #EEEEEE;
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+}
+
+.proggress{
+	height: 8px;
+	width: 10px;
+	background-color: #3498db;
+}
+
+.percentCount {
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 800;
+    margin-left: -12px;
+}
+.percentbox {
+    display: inline-block;
+    position: absolute;
+    bottom: -3px;
+    width: 10px;
+    height: 10px;
+    background: #3498DB;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 5px #ddd;
+    visibility: hidden;
+    opacity: 0;
+    transition: .7s;
+    transition-delay: 2s;
+}
+.percentindicator {
+    display: inline-block;
+    position: absolute;
+    bottom: 24px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #ddd;
+    margin-left: 0;
+}

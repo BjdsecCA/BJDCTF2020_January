@@ -1,0 +1,11 @@
+version: "3"
+services:
+ web:
+    image: vulhub/httpd:2.4-with-ssi
+    ports:
+      - "8107:80"
+    volumes:
+     - ./public:/var/www/html/public
+     - ./index.php:/var/www/html/index.php
+     - ./index.php.swp:/var/www/html/index.php.swp
+     - ./flag:/var/www/html/flag_990c66bf85a09c664f0b6741840499b2

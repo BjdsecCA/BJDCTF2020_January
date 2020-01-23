@@ -1,0 +1,265 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+   /*slick nav */
+    .slicknav_menu{
+        display: none;
+    }
+    /*support section*/
+    .support-content a {
+    font-size: 11px;
+    }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    #main-menu{
+        display: none;
+    }
+
+     /*slick nav */
+    .slicknav_menu{
+        display: block;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+
+    .slicknav_menu {
+        background: transparent;
+        position: absolute;
+        right: 3%;
+        top: 0;
+        z-index: 9;
+        width: 94%;
+        text-align: center;
+    }
+    .slicknav_btn {
+        background: transparent;
+        text-shadow: none;
+        margin-bottom: 24px;
+    }
+
+    .slicknav_menu .slicknav_icon-bar {
+        background: #fff;
+        box-shadow: none;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+    .slicknav_menu.nav-fixed {
+        position: fixed;
+        z-index: 99;
+    }
+    .slicknav_nav {
+        width: 100%;
+    }
+    ul.slicknav_nav {
+        background: #32383C;
+    }
+    li.slicknav_collapsed.slicknav_parent a i {
+        display: none;
+    }
+    .slicknav_nav .slicknav_row,
+    .slicknav_nav a {
+        margin: 0;
+        border-radius: 0;
+
+    }
+    .slicknav_nav a:hover,
+    .slicknav_nav .slicknav_row:hover{
+        background: #0268B2;
+        color: #fff;
+    }
+    .slicknav_btn.slicknav_open {
+        transform: rotate(30deg);
+    }
+    .slicknav_btn .slicknav_icon-bar{
+        transition: .3s;
+    }
+    .slicknav_btn.slicknav_open .slicknav_icon-bar:first-child {
+        display: none;
+    }
+
+    .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+        transform: rotate(110deg);
+    }
+
+    .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+        transform: rotate(9deg);
+        margin-top: -7px;
+    }
+    .education-details, 
+    .working-details{
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .about-area img{
+        display: none;
+    }
+   .counter-section li {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    .single-porfolio-item.grid-size {
+        width: 47%;
+    }
+    .single-blog-post {
+        margin-bottom: 30px;
+    }
+
+    .blog-area {
+        padding-bottom: 66px;
+    }
+    .single-contact-box {
+        display:  inline-block;
+        width:  32%;
+        min-height: 160px;
+    }
+
+    .single-contact-box p {
+        font-size: 85%;
+    }
+    .single-team-box {
+        margin-bottom: 50px;
+    }
+
+    .team-area {
+        padding-bottom: 52px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+}
+/* Wide Mobile Layout: 375px. */
+@media only screen and (max-width: 414px) {
+    #main-menu{
+        display: none;
+    }
+    /*slick nav */
+    .slicknav_menu{
+        display: block;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+
+    .slicknav_menu {
+        background: transparent;
+        position: absolute;
+        right: 3%;
+        top: 0;
+        z-index: 9;
+        width: 94%;
+        text-align: center;
+    }
+    .slicknav_btn {
+        background: transparent;
+        text-shadow: none;
+        margin-bottom: 24px;
+    }
+
+    .slicknav_menu .slicknav_icon-bar {
+        background: #fff;
+        box-shadow: none;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+    .slicknav_menu.nav-fixed {
+        position: fixed;
+        z-index: 99;
+    }
+    .slicknav_nav {
+        width: 100%;
+    }
+    ul.slicknav_nav {
+        background: #32383C;
+    }
+    li.slicknav_collapsed.slicknav_parent a i {
+        display: none;
+    }
+    .slicknav_nav .slicknav_row,
+    .slicknav_nav a {
+        margin: 0;
+        border-radius: 0;
+
+    }
+    .slicknav_nav a:hover,
+    .slicknav_nav .slicknav_row:hover{
+        background: #0268B2;
+        color: #fff;
+    }
+    .slicknav_btn.slicknav_open {
+        transform: rotate(30deg);
+    }
+    .slicknav_btn .slicknav_icon-bar{
+        transition: .3s;
+    }
+    .slicknav_btn.slicknav_open .slicknav_icon-bar:first-child {
+        display: none;
+    }
+
+    .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+        transform: rotate(110deg);
+    }
+
+    .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+        transform: rotate(9deg);
+        margin-top: -7px;
+    }
+    .slicknav_item.slicknav_row i{
+        display: none;
+    }
+    .boxed-btn {
+        margin-right: 10px;
+    }
+
+    .education-details, .working-details {
+        margin-left: 20px;
+    }
+
+    .single-team-box {
+        margin-bottom: 50px;
+    }
+
+    section.team-area {
+        padding-bottom: 52px;
+    }
+
+    .counter-section li {
+        width:  100%;
+        margin-bottom: 30px;
+    }
+
+    .counter-section {
+        padding-bottom: 65px;
+    }
+
+    .single-porfolio-item.grid-size {
+        width: 100%;
+    }
+
+    .single-blog-post {
+        margin-bottom: 30px;
+    }
+
+    section.blog-area {
+        padding-bottom: 66px;
+    }
+
+    .social-area li {
+        margin:  0 21px;
+        margin-bottom: 30px;
+    }
+
+    ul.social-area {
+        margin-bottom: 0;
+    }
+    .header-area .header-inner h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+ 
+}
