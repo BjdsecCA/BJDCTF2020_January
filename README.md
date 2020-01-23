@@ -1,7 +1,7 @@
 # BJDCTF2020
 A CTF freshman competition organized by Hangzhou Normal University, Jiangsu University of Science and Technology, and Jiangsu University
 
-> 不好意思咕咕咕了这么久,总算在年前改完了,web的wp其他学校的师傅已经写的很好了,这里就不再赘余了(咕咕 经过出题人长达好几天的讨论,最终决定本wp放出部分题解,有的题目介于很多原因就不放了
+> 不好意思咕咕咕了这么久,总算在年前改完了,web和misc的wp其他学校的师傅已经写的很好了,这里就不再赘余了(咕咕 经过出题人长达好几天的讨论,最终决定本wp放出部分题解,有的题目介于很多原因就不放了
 
 # web && MISC
 
