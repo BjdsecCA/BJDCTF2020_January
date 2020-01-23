@@ -365,7 +365,7 @@ print(long_to_bytes(m))
 
 题目描述直接给出，模的相关攻击，再看一下给出的附件，发现两次的N是相同的，所以可以确定是共模攻击
 
-![共模攻击][/image/modtogether.png]
+![共模攻击][/image/modtogether.jpg]
 
 Exp:
 
