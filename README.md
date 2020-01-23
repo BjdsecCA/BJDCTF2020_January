@@ -185,7 +185,7 @@ A CTF freshman competition organized by Hangzhou Normal University, Jiangsu Univ
 
 ## 0x02 Easy
 
-![easy1][easy1] 
+![easy1](/image/easy1.png)
 
 拖进IDA查看伪代码，发现主函数内没有任何与flag有关的函数，F12搜索字符串也找不到太多有用的信息。但是在函数窗口可以发现一个叫ques的未被调用的函数。
 
@@ -194,7 +194,7 @@ A CTF freshman competition organized by Hangzhou Normal University, Jiangsu Univ
 
 ***当然你也可以在发现了这个后门函数后直接动态调试+修改eip跳转到ques函数的起始地址，一路F8或者下断+F9就可以直接得到flag。
 
-![easy2][easy2]
+![easy2](/image/easy2.png)
  
 BJD{HACKIT4FUN}
 
@@ -202,17 +202,17 @@ BJD{HACKIT4FUN}
 
 在BJD hamburger\BJD hamburger competition_Data\Managed文件夹中找到Assembly-CSharp.dll拖进Dnspy中，找到 ButtonSpawnFruit这个类。
 
-![hum1][hum1]
+![hum1](/image/hum1.png)
  
 可以看到，需要我们按照正确的顺序堆出汉堡才能得到正确的flag。并且在汉堡顶的判断中限制了spawncount必须为5，又因为spawncount从0开始，所以汉堡的层数只能是6.
 除去汉堡底和汉堡顶，还剩4种材料，因此这道题就转化成了从7种材料中选4种的问题。
 
-![hum2][hum2]
+![hum2](/image/hum2.png)
  
-得出结果所有可能情况：![hum3][hum3] ，以及result的值为‘1001’
+得出结果所有可能情况：![hum3](/image/hum3.png) ，以及result的值为‘1001’
 把result进行MD5加密后，取前20位。
 
-![hum4][hum4]
+![hum4](/image/hum4.png)
  
 Flag：BJD{B8C37E33DEFDE51CF91E}
 PS:这里也可以用itertools模块中的permutations方法求解。
@@ -246,10 +246,6 @@ btw这道题出现了非预期解：如果直接把这一串哈希值放进在�
 ## 0x03 Real Hero
 建立一个虚结点，并将其与超人所有人相连，且距离为0，这样问题就转换成了求两次点到城中其他点最短路径的最大值，然后比较一下即可
 注意路径去重
-
-
-
-
 
 
 
@@ -369,7 +365,7 @@ print(long_to_bytes(m))
 
 题目描述直接给出，模的相关攻击，再看一下给出的附件，发现两次的N是相同的，所以可以确定是共模攻击
 
-![共模攻击][modtogether]
+![共模攻击][/image/modtogether.png]
 
 Exp:
 
