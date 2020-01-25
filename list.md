@@ -15,6 +15,10 @@
 
 6. ssi == easy search
 
+    ```
+    vim泄漏
+    ```
+    
 7. zj-advanced == ZJCTF，就这？
 
 
@@ -32,6 +36,7 @@
     ```
     你能找到flag吗？
     Ps.需要将得到的flag字符串放在BJD{}中后再提交，最终flag格式为BJD{flag字符串}
+    hint : 动态调试和eip了解一下
     ```
 
 3. BJD hamburger competition
